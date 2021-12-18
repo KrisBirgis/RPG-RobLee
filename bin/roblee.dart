@@ -1,11 +1,9 @@
-//go forward = 'w'
-//go back = 's'
-//go left = 'a'
-//go right = 'd'
+import 'entrance.dart';
+import 'hotel.dart';
+void main(){
+  Map map = Map();
+  map.startingRoom.describeRooms();
 
-//use wasd keys to controle where to go.
-
-
-void main() {
+  Entrance entrance = Entrance();
 
 }
