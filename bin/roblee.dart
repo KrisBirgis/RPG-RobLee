@@ -1,9 +1,4 @@
-import 'entrance.dart';
+
 import 'hotel.dart';
-void main(){
-  Map map = Map();
-  map.startingRoom.describeRooms();
+import 'dart:io';
 
-  Entrance entrance = Entrance();
-
-}
